@@ -1,0 +1,20 @@
+.{
+    .name = .filegen,
+    .version = "0.0.0",
+    .fingerprint = 0xf5d36b56a0880ba6, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        //.example = .{
+        //    .url = "https://example.com/foo.tar.gz",
+        //    .hash = "...",
+        //    .path = "foo",
+        //    .lazy = false,
+        //},
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "cli_gen.zig",
+    },
+}
